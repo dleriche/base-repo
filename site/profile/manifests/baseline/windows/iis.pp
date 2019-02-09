@@ -22,7 +22,7 @@ class profile::baseline::windows::iis {
     ensure => 'directory',
     path   => 'c:\\inetpub\\minimal',
   }
-  file { 'c:/inetpub/index.html':
+  file { 'c:/inetpub/minimal/index.html':
     ensure  => file,
     content => epp('profile/website.html.epp'),
     require => File['minimal'],
