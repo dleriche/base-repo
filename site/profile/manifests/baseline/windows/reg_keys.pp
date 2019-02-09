@@ -10,7 +10,7 @@ class profile::baseline::windows::reg_keys {
     type   => dword,
     data   => '0x00000001',
   }
-  registry_value { 'HKLM\Software\Microsoft\ Windows\CurrentVersion\Reliability\ShutdownReasonUI':
+  registry_value { 'HKLM\Software\Microsoft\Windows\CurrentVersion\Reliability\ShutdownReasonUI':
     ensure => present,
     type   => dword,
     data   => '0x00000001',
