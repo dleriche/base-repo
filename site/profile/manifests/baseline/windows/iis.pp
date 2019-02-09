@@ -21,7 +21,7 @@ class profile::baseline::windows::iis {
   file { 'minimal':
     ensure => 'directory',
     path   => 'c:\\inetpub\\minimal',
-  } 
+  }
   file { 'c:/inetpub/index.html':
     ensure  => file,
     content => epp('profile/website.html.epp'),
