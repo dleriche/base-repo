@@ -1,4 +1,4 @@
-class profile::baseline::windows::iis {
+class profile::website::iis {
 
   windowsfeature { 'Web-WebServer':
     ensure             => present,

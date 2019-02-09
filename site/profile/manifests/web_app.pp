@@ -1,4 +1,4 @@
-class profile::website {
+class profile::web_app {
 
   case $::kernel {
     'windows': {
