@@ -21,6 +21,7 @@ mod 'puppet-windowsfeature',  '3.2.2'
 mod 'puppetlabs-wsus_client', '1.1.0'
 
 # Forge Community Modules
+mod 'counsyl-windows',        '1.0.6'
 mod 'danieldreier-autosign',  '0.2.0'
 
 # Modules from Git
