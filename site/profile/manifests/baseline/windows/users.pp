@@ -1,6 +1,10 @@
 class profile::baseline::windows::users  {
 
-  user { 'DevOps':
+    group { 'DevOps':
+    ensure          => present,
+    comment         => 'DevOps Group created for On-Boarding',
+    }
+    user { 'DevOps':
     ensure          => present,
     managehome      => true,
     comment         => 'DevOps User created for On-Boarding',
@@ -8,10 +12,5 @@ class profile::baseline::windows::users  {
     groups          => ['DevOps','Users'],
     auth_membership => 'minimum',
   }
-  group { 'DevOps':
-    ensure          => present,
-    comment         => 'DevOps Group created for On-Boarding',
-    members         => ['DevOps'],
-    auth_membership => false,
-    }
+
 }
