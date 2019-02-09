@@ -2,7 +2,6 @@ class profile::baseline::windows::users  {
 
     group { 'DevOps':
     ensure          => present,
-    comment         => 'DevOps Group created for On-Boarding',
     }
     user { 'DevOps':
     ensure          => present,
