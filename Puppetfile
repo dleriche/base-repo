@@ -7,7 +7,7 @@ mod 'puppet-archive',                  '3.2.1'
 mod 'puppetlabs-puppet_authorization', '0.5.0'
 mod 'puppetlabs-bolt_shim',            '0.1.1'
 mod 'puppetlabs-bootstrap',            '0.4.1'
-mod 'puppetlabs-cd4pe',                '1.1.0'
+mod 'puppetlabs-cd4pe',                :latest
 mod 'puppetlabs-chocolatey',           '3.1.1'
 mod 'puppetlabs/concat',               '4.2.1'
 mod 'puppetlabs-dism',                 '1.3.1'
