@@ -22,15 +22,23 @@ mod 'puppetlabs/inifile',              '2.2.1'
 mod 'puppetlabs-powershell',           '2.2.0'
 mod 'puppetlabs-registry',             '2.1.0'
 mod 'puppetlabs-reboot',               '2.1.2'
+mod 'puppet-sslcertificate',           '3.4.0'
 mod 'puppetlabs/stdlib',               '4.25.1'
 mod 'puppetlabs-translate',            '1.2.0'
 mod 'puppet-windows_env',              '3.2.0'
 mod 'puppet-windowsfeature',           '3.2.2'
+mod 'puppet-windows_firewall',         '2.0.2'
 mod 'puppetlabs-wsus_client',          '1.1.0'
 
 # Forge Community Modules
-mod 'counsyl-windows',        '1.0.6'
-mod 'danieldreier-autosign',  '0.2.0'
+mod 'autostructure-ad_acl',            '1.0.0'
+mod 'autostructure-applocker',         '1.0.0'
+mod 'autostructure-auditpol',          '1.0.0'
+mod 'autostructure-secure_windows',    '1.0.5'
+mod 'ayohrling-local_security_policy', '0.6.3'
+mod 'counsyl-windows',                 '1.0.6'
+mod 'danieldreier-autosign',           '0.2.0'
+mod 'ipcrm-registry_acl',              '0.0.6'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
