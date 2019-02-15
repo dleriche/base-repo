@@ -41,6 +41,10 @@ mod 'danieldreier-autosign',           '0.2.0'
 mod 'ipcrm-registry_acl',              '0.0.6'
 
 # Modules from Git
+mod 'demo_cis',
+  :git => 'https://github.com/ipcrm/ipcrm-demo_cis.git',
+  :ref => '4e6b63b577b9beae5a3cea88237faf11cb5990a0'
+
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
