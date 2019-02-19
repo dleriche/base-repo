@@ -1,10 +1,2 @@
 ---
-lookup_options:
-  '^cd4pe::db_pass$:
-    convert_to: 'Sensitive'
-  '^cd4pe::root_config::root_password$:
-    convert_to: 'Sensitive'
-  '^cd4pe::root_config::s3_secret_key$:
-    convert_to: 'Sensitive'
-  '^cd4pe::root_config::artifactory_access_token$:
-    convert_to: 'Sensitive'  
+message: "%{fqdn} is using common data"
