@@ -1,4 +1,4 @@
-class profile::platform::baseline (
+class profile::baseline (
   Boolean $orch_agent  = false,
   Array   $timeservers = ['0.pool.ntp.org','1.pool.ntp.org'],
   Boolean $enable_monitoring = false,
@@ -24,7 +24,7 @@ class profile::platform::baseline (
 #      include ::profile::platform::baseline::windows
 #    }
     'Linux':   {
-      include ::profile::platform::baseline::linux
+      include ::profile::baseline::linux
     }
     default: {
       fail('Unsupported operating system!')
